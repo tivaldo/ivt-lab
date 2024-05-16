@@ -1,0 +1,10 @@
+Tesztesetek:
+
+firingMode == SINGLE
+1 - Mindkét torpedostore-ban 1-1 torpedó, egyet lövünk. Elvárt eredmény: csak az első torpedostore lője ki a torpedót.
+2 - Mindkét torpedostore-ban 2-2 torpedó, kettőt lövünk egymás után. Elvárt eredmény: először az első majd a második torpedostore tüzeljen.
+3 - Csak a második torpedostore-ban van 1 torpedó, egyet lövünk. Elvárt eredmény: a második torpedostore lő egyet.
+4 - Egyik torpedostore-ban sincs torpedó, kettőt lövünk. Elvárt eredmény: az első sikertelen lövés után nem próbál meg még egyet lőni.
+
+firingMode == ALL
+5 - Mindkét torpedostore-ban 1-1 torpedó, egyet lövünk. Elvárt eredmény: mindkét torpedostore kilövi a torpedót.
